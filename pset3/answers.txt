@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: The best and worst case were very diffent in the tests. It was faster when the array was sorted, what would not happen with the other two algorithms
+
+sort2 uses: Merge sort
+
+How do you know?: It was more constants in the tests and never had a very high time compared to the other two
+
+sort3 uses: Selection sort
+
+How do you know?: Values were overall higher, but no big difference when ordered
