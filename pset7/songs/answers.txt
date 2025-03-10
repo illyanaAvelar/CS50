@@ -1,0 +1,7 @@
+1 - Calculating the average of Energy, Valence and Danceability and dividing into groups according to the average.
+    If all values ​​are high, the aura is vibrant, if all values ​​are low, the aura is melancholic, and so on, also considering mixtures of values ​​of the averages, for example, if only Energy and Danceability are high, the vibe is more chaotic.
+
+2 - Calculating the average may disregard how much the values ​​vary, for example, if all the values ​​are at extremes.
+    To avoid this, it would be possible to characterize the aura of the songs first, and then see which auras stand out.
+    It would also be possible to consider the other attributes of the songs for this grouping, such as tempo.
+    If the base of songs is from 2018, a more recent data base would also be necessary, to reflect the person's current musical taste.
