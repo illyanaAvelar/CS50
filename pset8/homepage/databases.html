@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Programming Tips - Architecture</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        function flipCard(card) {
+            card.classList.toggle('flipped');
+        }
+    </script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header class="text-center mt-5">
+        <h1 class="display-4 fw-bold text-primary">Database Tips for Beginners</h1>
+        <p class="lead text-secondary">Learn the basics of databases!</p>
+    </header>
+
+    <div class="d-flex flex-row gap-2">
+        <a href="/architecture" class="btn btn-primary">Architecture</a>
+        <a href="/web-programming" class="btn btn-primary">Web Development</a>
+        <a href="/index" class="btn btn-primary">Back to main page</a>
+    </div>
+
+    <section class="container my-5">
+        <h2 class="text-center">SQL and NoSQL</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <button class="card flip-card" onclick="flipCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front p-3">
+                            <h3 class="card-title">SQL vs. NoSQL</h3>
+                        </div>
+                        <div class="card-back p-3">
+                            <p>SQL databases are based on structured schemas and are ideal for transactions, whereas NoSQL databases offer flexibility in terms of data structure, making them good for large-scale, distributed applications.</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <button class="card flip-card" onclick="flipCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front p-3">
+                            <h3 class="card-title">Relational Databases</h3>
+                        </div>
+                        <div class="card-back p-3">
+                            <p>Relational Databases use structured query language (SQL) for managing and manipulating data. They organize data into tables and enforce relationships between them. Popular examples include MySQL, PostgreSQL, and Oracle.</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <button class="card flip-card" onclick="flipCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front p-3">
+                            <h3 class="card-title">NoSQL Databases</h3>
+                        </div>
+                        <div class="card-back p-3">
+                            <p>NoSQL databases are designed to handle large volumes of unstructured or semi-structured data. They are more flexible than relational databases and include systems like MongoDB, Cassandra, and Couchbase.</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <h2 class="text-center">Strategies</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <button class="card flip-card" onclick="flipCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front p-3">
+                            <h3 class="card-title">Sharding</h3>
+                        </div>
+                        <div class="card-back p-3">
+                            <p>Sharding is the process of splitting data across multiple databases or servers. It is commonly used in NoSQL systems to manage large-scale data and improve performance.</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <button class="card flip-card" onclick="flipCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front p-3">
+                            <h3 class="card-title">Database Backup and Recovery</h3>
+                        </div>
+                        <div class="card-back p-3">
+                            <p>Database backup and recovery strategies ensure that data is preserved and can be restored in case of failure. Methods include full, incremental, and differential backups.</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <button class="card flip-card" onclick="flipCard(this)">
+                    <div class="card-inner">
+                        <div class="card-front p-3">
+                            <h3 class="card-title">Indexing</h3>
+                        </div>
+                        <div class="card-back p-3">
+                            <p>Indexes are used in databases to speed up the retrieval of rows from a table. They work similarly to an index in a book, allowing the database to locate data without scanning the entire table.</p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

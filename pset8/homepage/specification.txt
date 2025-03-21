@@ -1,0 +1,28 @@
+HTML tags:
+1- <h1>
+2- <p>
+3- <button>
+4- <a>
+5- <h2>
+6- <h3>
+7- <section>
+8- <i>
+9- <b>
+10- <ul>
+
+CSS properties:
+1- background-color
+2- border-radius
+3- box-shadow
+4- padding
+5- color
+
+Usage of JavaScript and Bootstrap:
+
+I used JavaScrip to create interactive components, allowing users to engage with the UI dynamically.
+For example, I built a card component where the title is displayed, and the card flips when clicked,
+enhancing user interaction.
+
+I used CSS to style common tags that appear across multiple screens, ensuring consistency.
+For more specific styling, like elements unique to certain pages, I used Bootstrap's utility
+classes to keep the structure flexible and maintainable.
