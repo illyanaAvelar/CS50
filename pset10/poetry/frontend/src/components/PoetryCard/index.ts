@@ -1,0 +1,1 @@
+export { PoetryCard } from './PoetryCard';
