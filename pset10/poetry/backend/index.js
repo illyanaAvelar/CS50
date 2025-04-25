@@ -32,3 +32,6 @@ app.get('/api/protected', verifyToken, (req, res) => {
 
 const poemRoutes = require('./routes/poems');
 app.use('/api/poems', poemRoutes);
+
+const subscriberRoutes = require('./routes/subscribers');
+app.use('/api/subscribe', subscriberRoutes);
